@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.container {
+    position: relative;
+}
+
+#social {
+    cursor: pointer;
+    padding: .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#social a {
+    text-decoration: none;
+    color: #272727;
+    
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    background: whitesmoke;
+}
